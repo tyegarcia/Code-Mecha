@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DBC3E12A9197CE0059353C /* Code_MechaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */; };
+		00DBC3E32A9197CE0059353C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E22A9197CE0059353C /* ContentView.swift */; };
+		00DBC3E52A9197CF0059353C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DBC3E42A9197CF0059353C /* Assets.xcassets */; };
+		00DBC3E82A9197CF0059353C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DBC3E72A9197CF0059353C /* Preview Assets.xcassets */; };
+		00DBC3EA2A9197CF0059353C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E92A9197CF0059353C /* Persistence.swift */; };
+		00DBC3ED2A9197CF0059353C /* Code_Mecha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3EB2A9197CF0059353C /* Code_Mecha.xcdatamodeld */; };
+		00DBC3F82A9197D00059353C /* Code_MechaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3F72A9197D00059353C /* Code_MechaTests.swift */; };
+		00DBC4022A9197D00059353C /* Code_MechaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC4012A9197D00059353C /* Code_MechaUITests.swift */; };
+		00DBC4042A9197D00059353C /* Code_MechaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC4032A9197D00059353C /* Code_MechaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00DBC3F42A9197D00059353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00DBC3D52A9197CE0059353C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00DBC3DC2A9197CE0059353C;
+			remoteInfo = "Code-Mecha";
+		};
+		00DBC3FE2A9197D00059353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00DBC3D52A9197CE0059353C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00DBC3DC2A9197CE0059353C;
+			remoteInfo = "Code-Mecha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DBC3DD2A9197CE0059353C /* Code-Mecha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-Mecha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaApp.swift; sourceTree = "<group>"; };
+		00DBC3E22A9197CE0059353C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00DBC3E42A9197CF0059353C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00DBC3E72A9197CF0059353C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00DBC3E92A9197CF0059353C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		00DBC3EC2A9197CF0059353C /* Code_Mecha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Code_Mecha.xcdatamodel; sourceTree = "<group>"; };
+		00DBC3EE2A9197CF0059353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DBC3F32A9197D00059353C /* Code-MechaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code-MechaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DBC3F72A9197D00059353C /* Code_MechaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaTests.swift; sourceTree = "<group>"; };
+		00DBC3FD2A9197D00059353C /* Code-MechaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code-MechaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DBC4012A9197D00059353C /* Code_MechaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaUITests.swift; sourceTree = "<group>"; };
+		00DBC4032A9197D00059353C /* Code_MechaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DBC3DA2A9197CE0059353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DBC3F02A9197D00059353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DBC3FA2A9197D00059353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DBC3D42A9197CE0059353C = {
+			isa = PBXGroup;
+			children = (
+				00DBC3DF2A9197CE0059353C /* Code-Mecha */,
+				00DBC3F62A9197D00059353C /* Code-MechaTests */,
+				00DBC4002A9197D00059353C /* Code-MechaUITests */,
+				00DBC3DE2A9197CE0059353C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DBC3DE2A9197CE0059353C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DBC3DD2A9197CE0059353C /* Code-Mecha.app */,
+				00DBC3F32A9197D00059353C /* Code-MechaTests.xctest */,
+				00DBC3FD2A9197D00059353C /* Code-MechaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DBC3DF2A9197CE0059353C /* Code-Mecha */ = {
+			isa = PBXGroup;
+			children = (
+				00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */,
+				00DBC3E22A9197CE0059353C /* ContentView.swift */,
+				00DBC3E42A9197CF0059353C /* Assets.xcassets */,
+				00DBC3E92A9197CF0059353C /* Persistence.swift */,
+				00DBC3EE2A9197CF0059353C /* Info.plist */,
+				00DBC3EB2A9197CF0059353C /* Code_Mecha.xcdatamodeld */,
+				00DBC3E62A9197CF0059353C /* Preview Content */,
+			);
+			path = "Code-Mecha";
+			sourceTree = "<group>";
+		};
+		00DBC3E62A9197CF0059353C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00DBC3E72A9197CF0059353C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00DBC3F62A9197D00059353C /* Code-MechaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00DBC3F72A9197D00059353C /* Code_MechaTests.swift */,
+			);
+			path = "Code-MechaTests";
+			sourceTree = "<group>";
+		};
+		00DBC4002A9197D00059353C /* Code-MechaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00DBC4012A9197D00059353C /* Code_MechaUITests.swift */,
+				00DBC4032A9197D00059353C /* Code_MechaUITestsLaunchTests.swift */,
+			);
+			path = "Code-MechaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DBC3DC2A9197CE0059353C /* Code-Mecha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DBC4072A9197D00059353C /* Build configuration list for PBXNativeTarget "Code-Mecha" */;
+			buildPhases = (
+				00DBC3D92A9197CE0059353C /* Sources */,
+				00DBC3DA2A9197CE0059353C /* Frameworks */,
+				00DBC3DB2A9197CE0059353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Code-Mecha";
+			productName = "Code-Mecha";
+			productReference = 00DBC3DD2A9197CE0059353C /* Code-Mecha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00DBC3F22A9197D00059353C /* Code-MechaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DBC40A2A9197D00059353C /* Build configuration list for PBXNativeTarget "Code-MechaTests" */;
+			buildPhases = (
+				00DBC3EF2A9197D00059353C /* Sources */,
+				00DBC3F02A9197D00059353C /* Frameworks */,
+				00DBC3F12A9197D00059353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DBC3F52A9197D00059353C /* PBXTargetDependency */,
+			);
+			name = "Code-MechaTests";
+			productName = "Code-MechaTests";
+			productReference = 00DBC3F32A9197D00059353C /* Code-MechaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00DBC3FC2A9197D00059353C /* Code-MechaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DBC40D2A9197D00059353C /* Build configuration list for PBXNativeTarget "Code-MechaUITests" */;
+			buildPhases = (
+				00DBC3F92A9197D00059353C /* Sources */,
+				00DBC3FA2A9197D00059353C /* Frameworks */,
+				00DBC3FB2A9197D00059353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DBC3FF2A9197D00059353C /* PBXTargetDependency */,
+			);
+			name = "Code-MechaUITests";
+			productName = "Code-MechaUITests";
+			productReference = 00DBC3FD2A9197D00059353C /* Code-MechaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DBC3D52A9197CE0059353C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00DBC3DC2A9197CE0059353C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					00DBC3F22A9197D00059353C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 00DBC3DC2A9197CE0059353C;
+					};
+					00DBC3FC2A9197D00059353C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 00DBC3DC2A9197CE0059353C;
+					};
+				};
+			};
+			buildConfigurationList = 00DBC3D82A9197CE0059353C /* Build configuration list for PBXProject "Code-Mecha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00DBC3D42A9197CE0059353C;
+			productRefGroup = 00DBC3DE2A9197CE0059353C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DBC3DC2A9197CE0059353C /* Code-Mecha */,
+				00DBC3F22A9197D00059353C /* Code-MechaTests */,
+				00DBC3FC2A9197D00059353C /* Code-MechaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DBC3DB2A9197CE0059353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DBC3E82A9197CF0059353C /* Preview Assets.xcassets in Resources */,
+				00DBC3E52A9197CF0059353C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DBC3F12A9197D00059353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DBC3FB2A9197D00059353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DBC3D92A9197CE0059353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DBC3EA2A9197CF0059353C /* Persistence.swift in Sources */,
+				00DBC3E32A9197CE0059353C /* ContentView.swift in Sources */,
+				00DBC3E12A9197CE0059353C /* Code_MechaApp.swift in Sources */,
+				00DBC3ED2A9197CF0059353C /* Code_Mecha.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DBC3EF2A9197D00059353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DBC3F82A9197D00059353C /* Code_MechaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DBC3F92A9197D00059353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DBC4042A9197D00059353C /* Code_MechaUITestsLaunchTests.swift in Sources */,
+				00DBC4022A9197D00059353C /* Code_MechaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00DBC3F52A9197D00059353C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00DBC3DC2A9197CE0059353C /* Code-Mecha */;
+			targetProxy = 00DBC3F42A9197D00059353C /* PBXContainerItemProxy */;
+		};
+		00DBC3FF2A9197D00059353C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00DBC3DC2A9197CE0059353C /* Code-Mecha */;
+			targetProxy = 00DBC3FE2A9197D00059353C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DBC4052A9197D00059353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00DBC4062A9197D00059353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DBC4082A9197D00059353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Code-Mecha/Preview Content\"";
+				DEVELOPMENT_TEAM = VRLAGU7ZPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyegarcia.Code-Mecha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00DBC4092A9197D00059353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Code-Mecha/Preview Content\"";
+				DEVELOPMENT_TEAM = VRLAGU7ZPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyegarcia.Code-Mecha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00DBC40B2A9197D00059353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRLAGU7ZPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyegarcia.Code-MechaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code-Mecha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Code-Mecha";
+			};
+			name = Debug;
+		};
+		00DBC40C2A9197D00059353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRLAGU7ZPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyegarcia.Code-MechaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code-Mecha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Code-Mecha";
+			};
+			name = Release;
+		};
+		00DBC40E2A9197D00059353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRLAGU7ZPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyegarcia.Code-MechaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Code-Mecha";
+			};
+			name = Debug;
+		};
+		00DBC40F2A9197D00059353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRLAGU7ZPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyegarcia.Code-MechaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Code-Mecha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DBC3D82A9197CE0059353C /* Build configuration list for PBXProject "Code-Mecha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DBC4052A9197D00059353C /* Debug */,
+				00DBC4062A9197D00059353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DBC4072A9197D00059353C /* Build configuration list for PBXNativeTarget "Code-Mecha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DBC4082A9197D00059353C /* Debug */,
+				00DBC4092A9197D00059353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DBC40A2A9197D00059353C /* Build configuration list for PBXNativeTarget "Code-MechaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DBC40B2A9197D00059353C /* Debug */,
+				00DBC40C2A9197D00059353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DBC40D2A9197D00059353C /* Build configuration list for PBXNativeTarget "Code-MechaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DBC40E2A9197D00059353C /* Debug */,
+				00DBC40F2A9197D00059353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00DBC3EB2A9197CF0059353C /* Code_Mecha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00DBC3EC2A9197CF0059353C /* Code_Mecha.xcdatamodel */,
+			);
+			currentVersion = 00DBC3EC2A9197CF0059353C /* Code_Mecha.xcdatamodel */;
+			path = Code_Mecha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00DBC3D52A9197CE0059353C /* Project object */;
+}

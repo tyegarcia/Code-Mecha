@@ -11,7 +11,14 @@ import CoreData
 struct ContentView: View {
     
     var body: some View {
-        Text("Code Mecha")
+        ZStack {
+            Color.black
+//                .ignoresSafeArea()
+            VStack {
+                Navbar() // Navbar at the top
+                Spacer() // Pushes the Navbar to the top
+            }
+        }
     }
 }
 

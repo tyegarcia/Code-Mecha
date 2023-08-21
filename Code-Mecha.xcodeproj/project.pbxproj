@@ -16,6 +16,7 @@
 		00DBC3F82A9197D00059353C /* Code_MechaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3F72A9197D00059353C /* Code_MechaTests.swift */; };
 		00DBC4022A9197D00059353C /* Code_MechaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC4012A9197D00059353C /* Code_MechaUITests.swift */; };
 		00DBC4042A9197D00059353C /* Code_MechaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC4032A9197D00059353C /* Code_MechaUITestsLaunchTests.swift */; };
+		00DBC4112A92BA6A0059353C /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC4102A92BA6A0059353C /* Navbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		00DBC3FD2A9197D00059353C /* Code-MechaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code-MechaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DBC4012A9197D00059353C /* Code_MechaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaUITests.swift; sourceTree = "<group>"; };
 		00DBC4032A9197D00059353C /* Code_MechaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00DBC4102A92BA6A0059353C /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				00DBC3EE2A9197CF0059353C /* Info.plist */,
 				00DBC3EB2A9197CF0059353C /* Code_Mecha.xcdatamodeld */,
 				00DBC3E62A9197CF0059353C /* Preview Content */,
+				00DBC4102A92BA6A0059353C /* Navbar.swift */,
 			);
 			path = "Code-Mecha";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				00DBC3EA2A9197CF0059353C /* Persistence.swift in Sources */,
 				00DBC3E32A9197CE0059353C /* ContentView.swift in Sources */,
 				00DBC3E12A9197CE0059353C /* Code_MechaApp.swift in Sources */,
+				00DBC4112A92BA6A0059353C /* Navbar.swift in Sources */,
 				00DBC3ED2A9197CF0059353C /* Code_Mecha.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

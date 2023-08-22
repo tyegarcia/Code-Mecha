@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Navbar: View {
+struct TopNavbar: View {
     @State private var health: Double = 0.75 // Example state for health bar
     @State private var energy: Double = 0.5 // Example state for energy bar
     @State private var stamina: Double = 0.25 // Example state for stamina bar
@@ -77,7 +77,7 @@ struct Navbar: View {
         .frame(height: 100)
         .frame(width: UIScreen.main.bounds.width)
         .padding(.horizontal, 5)
-        .background(Color.gray.opacity(0.5))
+        .background(Color.gray.brightness(0.1))
     
             HStack {
                 Text("Level \(PlayerLevel)")
@@ -113,7 +113,7 @@ struct Navbar: View {
             }
             
             .frame(height: 40)
-            .background(Color.gray.opacity(0.7))
+            .background(Color.gray)
 
         }
     }
@@ -134,12 +134,12 @@ struct ProgressBar: View {
                         Rectangle()
                             .frame(width: width, height: height) // Use the custom width and height here
                             .cornerRadius(height / 2)
-                            .foregroundColor(Color.gray.opacity(0.2))
+                            .foregroundColor(Color.black)
 
                         Rectangle()
                             .frame(width: CGFloat(value) * width, height: height) // Multiply the value by the custom width
                             .cornerRadius(height / 2)
-                            .foregroundColor(Color.blue.opacity(0.5))
+                            .foregroundColor(Color.blue)
                     }
                 }
                 
@@ -168,7 +168,7 @@ func StatBox(imageName: String, value: Double) -> some View {
 
 struct Navbar_Previews: PreviewProvider {
     static var previews: some View {
-        Navbar()
+        TopNavbar()
     }
 }
 

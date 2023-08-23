@@ -28,12 +28,14 @@ struct ImageCarousel: View {
                         Image(item.imageName)
                             .resizable()
 //                            .scaledToFill()
-                            .frame(height: 225)
+//                            .aspectRatio(contentMode: .fill)
+                            .frame(height: 250)
+                            .clipped()
                             .cornerRadius(8)
                             .overlay(
                                 LinearGradient(gradient: Gradient(colors: [.clear, .black.opacity(0.7), .black.opacity(0.9)]), startPoint: .center, endPoint: .bottom)
                                     .cornerRadius(8)
-                                    .frame(height: 225)
+                                    .frame(height: 250)
                                 
                             )
                             .overlay(
@@ -47,6 +49,8 @@ struct ImageCarousel: View {
                 }
             }
             .frame(height: 225)
+            .offset(y: 12)
+            .cornerRadius(8)
             .onReceive(timer) { _ in
                 withAnimation {
                     selection = (selection + 1) % images.count
@@ -66,7 +70,7 @@ struct ImageCarousel: View {
                     .clipShape(Circle())
             }
             .padding(.leading, 10)
-            .padding(.bottom, 50)
+            .padding(.bottom, 10)
             .frame(maxWidth: .infinity, alignment: .leading)
             
             // Right Arrow
@@ -82,7 +86,7 @@ struct ImageCarousel: View {
                     .clipShape(Circle())
             }
             .padding(.trailing, 10)
-            .padding(.bottom, 50)
+            .padding(.bottom, 10)
             .frame(maxWidth: .infinity, alignment: .trailing)
         }
         

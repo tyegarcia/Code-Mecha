@@ -103,6 +103,7 @@ struct TopNavbar: View {
             .background(Color.gray)
             
         }
+        .border(Color.black, width: 1)
     }
 }
 
@@ -110,7 +111,11 @@ struct TopNavbar: View {
 
 struct Navbar_Previews: PreviewProvider {
     static var previews: some View {
-        TopNavbar(viewModel: TopNavbarViewModel())
+        ZStack {
+            Color.green
+            
+            TopNavbar(viewModel: TopNavbarViewModel())
+        }
     }
 }
 

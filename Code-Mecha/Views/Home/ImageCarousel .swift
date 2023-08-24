@@ -44,7 +44,9 @@ struct ImageCarousel: View {
             }
             .frame(height: 225)
             .offset(y: 12)
+            .padding(.top, -11)
             .cornerRadius(8)
+//            .border(Color.red, width: 1)
             
             // Left Arrow
             Button(action: {
@@ -77,6 +79,7 @@ struct ImageCarousel: View {
             .padding(.trailing, 10)
             .padding(.bottom, 10)
             .frame(maxWidth: .infinity, alignment: .trailing)
+            
             
         }
         .onReceive(timer) { _ in

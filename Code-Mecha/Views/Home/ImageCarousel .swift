@@ -7,28 +7,22 @@
 
 import SwiftUI
 
-struct ImageCarouselItem: Identifiable {
-    let id = UUID()
-    let imageName: String
-}
-
 struct ImageCarousel: View {
-    let images: [ImageCarouselItem]
-    @State private var selection: Int = 0
+    @ObservedObject var viewModel: ImageCarouselViewModel
     
     let timer = Timer.publish(every: 4, on: .main, in: .common).autoconnect()
-    
+        
     var body: some View {
         ZStack {
             // Carousel
-            TabView(selection: $selection) {
-                ForEach(images.indices, id: \.self) { index in
-                    let item = images[index]
+            TabView(selection: $viewModel.selection) {
+                ForEach(viewModel.images.indices, id: \.self) { index in
+                    let item = viewModel.images[index]
                     ZStack {
                         Image(item.imageName)
                             .resizable()
-//                            .scaledToFill()
-//                            .aspectRatio(contentMode: .fill)
+                        //                            .scaledToFill()
+                        //                            .aspectRatio(contentMode: .fill)
                             .frame(height: 250)
                             .clipped()
                             .cornerRadius(8)
@@ -51,16 +45,11 @@ struct ImageCarousel: View {
             .frame(height: 225)
             .offset(y: 12)
             .cornerRadius(8)
-            .onReceive(timer) { _ in
-                withAnimation {
-                    selection = (selection + 1) % images.count
-                }
-            }
             
             // Left Arrow
             Button(action: {
                 withAnimation {
-                    selection = (selection - 1 + images.count) % images.count
+                    viewModel.selection = (viewModel.selection - 1 + viewModel.images.count) % viewModel.images.count
                 }
             }) {
                 Image(systemName: "arrow.left")
@@ -76,7 +65,7 @@ struct ImageCarousel: View {
             // Right Arrow
             Button(action: {
                 withAnimation {
-                    selection = (selection + 1) % images.count
+                    viewModel.selection = (viewModel.selection + 1) % viewModel.images.count
                 }
             }) {
                 Image(systemName: "arrow.right")
@@ -88,26 +77,24 @@ struct ImageCarousel: View {
             .padding(.trailing, 10)
             .padding(.bottom, 10)
             .frame(maxWidth: .infinity, alignment: .trailing)
+            
         }
-        
+        .onReceive(timer) { _ in
+            withAnimation {
+                viewModel.selection = (viewModel.selection + 1) % viewModel.images.count
+            }
+            
+        }
     }
-    
 }
 
 
 
 struct ImageCarousel_Previews: PreviewProvider {
-    static var carouselImages: [ImageCarouselItem] = [
-        ImageCarouselItem(imageName: "placeholder1"),
-        ImageCarouselItem(imageName: "placeholder2"),
-        ImageCarouselItem(imageName: "placeholder3"),
-        ImageCarouselItem(imageName: "placeholder4")
-    ]
-    
     static var previews: some View {
         ZStack {
             Color.green
-            ImageCarousel(images: carouselImages)
+            ImageCarousel(viewModel: ImageCarouselViewModel())
         }
     }
 }

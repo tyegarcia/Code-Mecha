@@ -10,11 +10,14 @@ import SwiftUI
 @main
 struct Code_MechaApp: App {
     let persistenceController = PersistenceController.shared
+    
+    @State private var selectedTab: BottomNavbar.Tab = .home
 
     var body: some Scene {
         WindowGroup {
-            HomeView(viewModel: HomeViewModel())
+            HomeView(viewModel: HomeViewModel(), selectedTab: $selectedTab)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+

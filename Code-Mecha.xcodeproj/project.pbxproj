@@ -17,6 +17,7 @@
 		00B7ECF62A9C0229008D330C /* ShopSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF52A9C0229008D330C /* ShopSectionViewModel.swift */; };
 		00B7ECF82A9C02DB008D330C /* ClothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF72A9C02DB008D330C /* ClothesView.swift */; };
 		00B7ECFA2A9C0322008D330C /* WeaponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF92A9C0322008D330C /* WeaponView.swift */; };
+		00B7ECFC2A9D6E14008D330C /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECFB2A9D6E14008D330C /* AppEnums.swift */; };
 		00DBC3E12A9197CE0059353C /* Code_MechaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */; };
 		00DBC3E32A9197CE0059353C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E22A9197CE0059353C /* HomeView.swift */; };
 		00DBC3E52A9197CF0059353C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DBC3E42A9197CF0059353C /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		00B7ECF52A9C0229008D330C /* ShopSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSectionViewModel.swift; sourceTree = "<group>"; };
 		00B7ECF72A9C02DB008D330C /* ClothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesView.swift; sourceTree = "<group>"; };
 		00B7ECF92A9C0322008D330C /* WeaponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponView.swift; sourceTree = "<group>"; };
+		00B7ECFB2A9D6E14008D330C /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
 		00DBC3DD2A9197CE0059353C /* Code-Mecha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-Mecha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaApp.swift; sourceTree = "<group>"; };
 		00DBC3E22A9197CE0059353C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				00DBC3EE2A9197CF0059353C /* Info.plist */,
 				00DBC3EB2A9197CF0059353C /* Code_Mecha.xcdatamodeld */,
 				00DBC3E62A9197CF0059353C /* Preview Content */,
+				00B7ECFB2A9D6E14008D330C /* AppEnums.swift */,
 			);
 			path = "Code-Mecha";
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				00DBC4232A96D4CC0059353C /* TopNavbarViewModel.swift in Sources */,
 				00DBC3E32A9197CE0059353C /* HomeView.swift in Sources */,
 				00B7ECEE2A9BFED9008D330C /* MechView.swift in Sources */,
+				00B7ECFC2A9D6E14008D330C /* AppEnums.swift in Sources */,
 				00B7ECF42A9C01FE008D330C /* ShopSectionView.swift in Sources */,
 				00DBC4252A96D5750059353C /* BottomNavbarViewModel.swift in Sources */,
 				00DBC41F2A96D48D0059353C /* ImageCarouselItem.swift in Sources */,

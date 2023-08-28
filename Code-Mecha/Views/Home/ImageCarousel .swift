@@ -14,6 +14,7 @@ struct ImageCarousel: View {
         
     var body: some View {
         ZStack {
+            Color.black
             // Carousel
             TabView(selection: $viewModel.selection) {
                 ForEach(viewModel.images.indices, id: \.self) { index in

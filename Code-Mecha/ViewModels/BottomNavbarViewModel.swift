@@ -8,6 +8,10 @@
 import SwiftUI
 
 class BottomNavbarViewModel: ObservableObject {
-    // Define any properties related to bottom navigation here
+    @Published var selectedTab: Tab = .home
+    
+    func imageName(for tab: Tab) -> String {
+        return tab.imageName
+    }
 }
 

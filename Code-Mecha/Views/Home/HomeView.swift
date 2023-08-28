@@ -10,10 +10,11 @@ import CoreData
 
 struct HomeView: View {
     @ObservedObject var viewModel: HomeViewModel
+    @Binding var selectedTab: BottomNavbar.Tab
     
     var body: some View {
         ZStack {
-            Color.green
+            Color.black
             VStack {
                 TopNavbar(viewModel: TopNavbarViewModel()) // Navbar at the top
                 
@@ -36,7 +37,7 @@ struct HomeView: View {
                 
 //                .border(Color.red)
                 
-                BottomNavbar() // Navbar at the bottom
+                BottomNavbar(selectedTab: $selectedTab) // Navbar at the bottom
             }
             
         }
@@ -46,8 +47,11 @@ struct HomeView: View {
 
 
 struct ContentView_Previews: PreviewProvider {
+    @State static var previewTab = BottomNavbar.Tab.home
+
     static var previews: some View {
-        HomeView(viewModel: HomeViewModel())
+        HomeView(viewModel: HomeViewModel(), selectedTab: $previewTab)
             .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
+

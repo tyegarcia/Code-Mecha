@@ -67,7 +67,7 @@ struct TableHome: View {
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: 43) // Adjust frame as needed
-            .padding(.horizontal, 9)
+            .padding(.horizontal, 13)
         }
         .frame(maxWidth: .infinity, maxHeight: 286)
 //        .border(Color.black, width: 1)

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B7ECE32A9BFC43008D330C /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECE22A9BFC43008D330C /* ShopView.swift */; };
+		00B7ECE52A9BFDF2008D330C /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECE42A9BFDF2008D330C /* ShopItem.swift */; };
+		00B7ECE92A9BFE2C008D330C /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECE82A9BFE2C008D330C /* ShopViewModel.swift */; };
+		00B7ECEE2A9BFED9008D330C /* MechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECED2A9BFED9008D330C /* MechView.swift */; };
+		00B7ECF02A9BFFFC008D330C /* SectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECEF2A9BFFFC008D330C /* SectionButton.swift */; };
+		00B7ECF22A9C0059008D330C /* ArmorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF12A9C0059008D330C /* ArmorView.swift */; };
+		00B7ECF42A9C01FE008D330C /* ShopSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF32A9C01FE008D330C /* ShopSectionView.swift */; };
+		00B7ECF62A9C0229008D330C /* ShopSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF52A9C0229008D330C /* ShopSectionViewModel.swift */; };
+		00B7ECF82A9C02DB008D330C /* ClothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF72A9C02DB008D330C /* ClothesView.swift */; };
+		00B7ECFA2A9C0322008D330C /* WeaponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7ECF92A9C0322008D330C /* WeaponView.swift */; };
 		00DBC3E12A9197CE0059353C /* Code_MechaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */; };
 		00DBC3E32A9197CE0059353C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBC3E22A9197CE0059353C /* HomeView.swift */; };
 		00DBC3E52A9197CF0059353C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DBC3E42A9197CF0059353C /* Assets.xcassets */; };
@@ -49,6 +59,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B7ECE22A9BFC43008D330C /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		00B7ECE42A9BFDF2008D330C /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		00B7ECE82A9BFE2C008D330C /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		00B7ECED2A9BFED9008D330C /* MechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechView.swift; sourceTree = "<group>"; };
+		00B7ECEF2A9BFFFC008D330C /* SectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionButton.swift; sourceTree = "<group>"; };
+		00B7ECF12A9C0059008D330C /* ArmorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorView.swift; sourceTree = "<group>"; };
+		00B7ECF32A9C01FE008D330C /* ShopSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSectionView.swift; sourceTree = "<group>"; };
+		00B7ECF52A9C0229008D330C /* ShopSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSectionViewModel.swift; sourceTree = "<group>"; };
+		00B7ECF72A9C02DB008D330C /* ClothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesView.swift; sourceTree = "<group>"; };
+		00B7ECF92A9C0322008D330C /* WeaponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponView.swift; sourceTree = "<group>"; };
 		00DBC3DD2A9197CE0059353C /* Code-Mecha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-Mecha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DBC3E02A9197CE0059353C /* Code_MechaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_MechaApp.swift; sourceTree = "<group>"; };
 		00DBC3E22A9197CE0059353C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -102,6 +122,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B7ECE12A9BFC35008D330C /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				00B7ECE22A9BFC43008D330C /* ShopView.swift */,
+				00B7ECED2A9BFED9008D330C /* MechView.swift */,
+				00B7ECEF2A9BFFFC008D330C /* SectionButton.swift */,
+				00B7ECF12A9C0059008D330C /* ArmorView.swift */,
+				00B7ECF32A9C01FE008D330C /* ShopSectionView.swift */,
+				00B7ECF72A9C02DB008D330C /* ClothesView.swift */,
+				00B7ECF92A9C0322008D330C /* WeaponView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
 		00DBC3D42A9197CE0059353C = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +205,8 @@
 				00DBC4242A96D5750059353C /* BottomNavbarViewModel.swift */,
 				00DBC4262A96D58F0059353C /* ImageCarouselViewModel.swift */,
 				00DBC4302A96F4740059353C /* TableViewModel.swift */,
+				00B7ECE82A9BFE2C008D330C /* ShopViewModel.swift */,
+				00B7ECF52A9C0229008D330C /* ShopSectionViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +214,7 @@
 		00DBC4192A96D2440059353C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00B7ECE12A9BFC35008D330C /* Shop */,
 				00DBC41B2A96D2610059353C /* Home */,
 				00DBC41C2A96D2A30059353C /* NavigationBars */,
 				00DBC41D2A96D2B30059353C /* Common */,
@@ -190,6 +227,7 @@
 			children = (
 				00DBC41E2A96D48D0059353C /* ImageCarouselItem.swift */,
 				00DBC42E2A96F44B0059353C /* TableItem.swift */,
+				00B7ECE42A9BFDF2008D330C /* ShopItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -352,22 +390,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B7ECE52A9BFDF2008D330C /* ShopItem.swift in Sources */,
+				00B7ECF02A9BFFFC008D330C /* SectionButton.swift in Sources */,
 				00DBC3EA2A9197CF0059353C /* Persistence.swift in Sources */,
 				00DBC42F2A96F44B0059353C /* TableItem.swift in Sources */,
 				00DBC4212A96D4B30059353C /* HomeViewModel.swift in Sources */,
+				00B7ECE92A9BFE2C008D330C /* ShopViewModel.swift in Sources */,
+				00B7ECE32A9BFC43008D330C /* ShopView.swift in Sources */,
 				00DBC4232A96D4CC0059353C /* TopNavbarViewModel.swift in Sources */,
 				00DBC3E32A9197CE0059353C /* HomeView.swift in Sources */,
+				00B7ECEE2A9BFED9008D330C /* MechView.swift in Sources */,
+				00B7ECF42A9C01FE008D330C /* ShopSectionView.swift in Sources */,
 				00DBC4252A96D5750059353C /* BottomNavbarViewModel.swift in Sources */,
 				00DBC41F2A96D48D0059353C /* ImageCarouselItem.swift in Sources */,
 				00DBC42B2A96D5B80059353C /* ProgressBar.swift in Sources */,
 				00DBC3E12A9197CE0059353C /* Code_MechaApp.swift in Sources */,
 				00DBC4112A92BA6A0059353C /* TopNavbar.swift in Sources */,
 				00DBC4272A96D58F0059353C /* ImageCarouselViewModel.swift in Sources */,
+				00B7ECF82A9C02DB008D330C /* ClothesView.swift in Sources */,
+				00B7ECF62A9C0229008D330C /* ShopSectionViewModel.swift in Sources */,
 				00DBC4132A94407A0059353C /* BottomNavbar.swift in Sources */,
 				00DBC42D2A96F1A40059353C /* TableHome.swift in Sources */,
 				00DBC4152A9448240059353C /* ImageCarousel .swift in Sources */,
 				00DBC3ED2A9197CF0059353C /* Code_Mecha.xcdatamodeld in Sources */,
 				00DBC4312A96F4740059353C /* TableViewModel.swift in Sources */,
+				00B7ECF22A9C0059008D330C /* ArmorView.swift in Sources */,
+				00B7ECFA2A9C0322008D330C /* WeaponView.swift in Sources */,
 				00DBC4292A96D5A40059353C /* StatBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

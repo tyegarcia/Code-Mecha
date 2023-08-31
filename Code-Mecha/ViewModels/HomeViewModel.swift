@@ -8,7 +8,7 @@
 import SwiftUI
 
 class HomeViewModel: ObservableObject {
-    @Published var imageCarouselViewModel = ImageCarouselViewModel()
+    @Published var imageCarouselViewModel: ImageCarouselViewModel
     @Published var tableHomeViewModel: TableHomeViewModel = TableHomeViewModel(title: "Explore Code Mecha", items: [
         [TableItem(imageName: "tshirt.fill", text: "COSMETIC CYBERWEAR"),
          TableItem(imageName: "building.2.fill", text: "NIGHTCITY")],
@@ -26,5 +26,8 @@ class HomeViewModel: ObservableObject {
         ImageCarouselItem(imageName: "placeholder3"),
         ImageCarouselItem(imageName: "placeholder4")
     ]
+    
+    init() {
+        self.imageCarouselViewModel = ImageCarouselViewModel(images: carouselImages)
+    }
 }
-

@@ -21,7 +21,7 @@ enum ShopSection {
 class ShopViewModel: ObservableObject {
     // Selected section
     @Published var selectedSection: ShopSection = .mechs
-
+    
     // This is just sample data, you'd probably fetch this from some source or it might be more complex
     var mechs: [ShopItem] = [
         ShopItem(name: "Mech A", description: "This is a powerful Mech", price: 1000.0),
@@ -59,7 +59,7 @@ class ShopViewModel: ObservableObject {
         ShopItem(name: "Mech A", description: "This is a powerful Mech", price: 1000.0),
         // Add more items...
     ]
-
+    
     var armors: [ShopItem] = [
         ShopItem(name: "Armor A", description: "Protects from heavy fire", price: 500.0),
         // Add more items...
@@ -74,17 +74,17 @@ class ShopViewModel: ObservableObject {
     ]
     
     let carouselImages: [ImageCarouselItem] = [
-        ImageCarouselItem(imageName: "shopPlaceholder1"),
-        ImageCarouselItem(imageName: "shopPlaceholder2"),
-        ImageCarouselItem(imageName: "shopPlaceholder3"),
-        ImageCarouselItem(imageName: "shopPlaceholder4")
+        ImageCarouselItem(imageName: "placeholder4"),
+        ImageCarouselItem(imageName: "placeholder3"),
+        ImageCarouselItem(imageName: "placeholder2"),
+        ImageCarouselItem(imageName: "placeholder1")
     ]
-
-    lazy var imageCarouselViewModel: ImageCarouselViewModel = {
-        var model = ImageCarouselViewModel()
-        model.images = carouselImages
-        return model
-    }()
+    
+    @Published var imageCarouselViewModel: ImageCarouselViewModel
+    
+    init() {
+        self.imageCarouselViewModel = ImageCarouselViewModel(images: carouselImages)
+    }
+    
+    
 }
-
-

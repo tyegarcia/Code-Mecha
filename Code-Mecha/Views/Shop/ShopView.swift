@@ -14,7 +14,7 @@ struct ShopView: View {
     
     var body: some View {
         ZStack {
-            Color.green.edgesIgnoringSafeArea(.all)
+            Color.black
             VStack {
                 TopNavbar(viewModel: TopNavbarViewModel()) // Navbar at the top
                 
@@ -36,9 +36,12 @@ struct ShopView: View {
                         .frame(height: 0)
                         
                         ImageCarousel(viewModel: viewModel.imageCarouselViewModel)
+                        Spacer().frame(height: 5)
+//                            .padding(.bottom, 5)
                         
                         ShopSectionsView(viewModel: viewModel)
                             .opacity(isSticky ? 0 : 1) // This will hide the original ShopSectionsView
+                            .padding(.top, 5)
                         
                         VStack {
                             Spacer().frame(height: 11)
@@ -60,7 +63,7 @@ struct ShopView: View {
                         VStack {
                             ShopSectionsView(viewModel: viewModel)
                                 .frame(maxWidth: .infinity)
-//                                .background(Color.blue)
+                                .background(Color.black)
                             Spacer()
                         }
                         .zIndex(1)

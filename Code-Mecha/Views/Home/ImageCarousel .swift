@@ -94,11 +94,11 @@ struct ImageCarousel: View {
 
 
 
-struct ImageCarousel_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.green
-            ImageCarousel(viewModel: ImageCarouselViewModel())
-        }
-    }
-}
+//struct ImageCarousel_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ZStack {
+//            Color.green
+//            ImageCarousel(viewModel: ImageCarouselViewModel())
+//        }
+//    }
+//}
